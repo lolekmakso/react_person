@@ -3,18 +3,22 @@ iframe {
 }
 
 .Person {
+  font-family: Arial, Helvetica, sans-serif;
   width: fit-content;
+  width: 230px;
   margin-bottom: 16px;
-  padding: 8px;
-  border: 1px solid #000;
+  padding: 8px 12px;
+  border: 1px solid #393939;
+  background-color: #e3e3e3;
   border-radius: 8px;
+  color: #393939;
 
   &__name {
     margin-top: 8px;
   }
 
   &__age {
-    color: #00f;
+    color: rgb(83, 83, 181);
     font-weight: bold;
   }
 }
